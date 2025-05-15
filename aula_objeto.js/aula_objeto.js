@@ -41,11 +41,18 @@ class Veiculo{
         this.ano = ano
     }
     exibirInformação(){
-        return `O veicúlo do ${this.modelo}, marca:${this.marca}, ano${this.ano}.`
+        return `O veiculo do ${this.modelo}, marca:${this.marca}, ano:${this.ano}.`
     }
 
 }
 
 let carro = new Veiculo("Toyota","Corolla",2022)
 console.log(carro.exibirInformação())
+
+import letsGo from "readline-sync"
+let nome = letsGo.question("Informe seu nome:");
+console.log(`Olá ${nome}, seja bem vindo. `)
+
+
+
 
