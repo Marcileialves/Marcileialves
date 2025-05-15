@@ -4,10 +4,9 @@ let apartamento = {
     tipo: "Apartamento",
     endereco: "Avenida Principal, 456-Centro",
     andar: 7
-}
+};
 
 console.log(`A partamento com ${apartamento.quartos}, localizado no ${apartamento.andar} na ${apartamento.endereco}.`);
-
 //Exercício número dois.
 
 let produtoEmbalado = {
@@ -15,7 +14,7 @@ let produtoEmbalado = {
     categoria:"Eletrônicos",
     peso:1.5,
     preco:3500.00
-}
+};
 console.log(`O produto ${produtoEmbalado.Nome},da categoria ${produtoEmbalado.categoria}, pesando${produtoEmbalado.peso}kg, está a venda por R$:${produtoEmbalado.preco} reais.`)
 //exercício número três.
 class Imovel{
@@ -28,9 +27,9 @@ class Imovel{
     }
 
 }
-let casa = new Imovel(4,"Casa","Rua da Amizade, 789 - Bairro Alegre N° 7979")
-console.log(casa.exibirInformacoes())
-let aprt = new Imovel(2,"Casa","Rua da Amizade, 789 - Bairro Alegre")
+let casa = new Imovel(4,"Casa","Rua da Amizade, 789 - Bairro Alegre N° 7979");
+console.log(casa.exibirInformacoes());
+let aprt = new Imovel(2,"Casa","Rua da Amizade, 789 - Bairro Alegre");
 console.log(aprt.exibirInformacoes())
 //Exercício número quatro.
 
@@ -46,12 +45,12 @@ class Veiculo{
 
 }
 
-let carro = new Veiculo("Toyota","Corolla",2022)
-console.log(carro.exibirInformação())
+let carro = new Veiculo("Toyota","Corolla",2022);
+console.log(carro.exibirInformação());
 
 import letsGo from "readline-sync"
 let nome = letsGo.question("Informe seu nome:");
-console.log(`Olá ${nome}, seja bem vindo. `)
+console.log(`Olá ${nome}, seja bem vindo. `);
 
 
 
