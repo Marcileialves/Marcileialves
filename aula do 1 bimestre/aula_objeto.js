@@ -52,4 +52,3 @@ import letsGo from "readline-sync"
 let nome = letsGo.question("Informe seu nome:");
 console.log(`Olá ${nome}, seja bem vindo. `);
 
-import letsGo from "readline-sync"
