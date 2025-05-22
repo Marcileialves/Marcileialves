@@ -47,11 +47,9 @@ class Veiculo{
 
 let carro = new Veiculo("Toyota","Corolla",2022);
 console.log(carro.exibirInformação());
-
+// arquivo do slide 7
 import letsGo from "readline-sync"
 let nome = letsGo.question("Informe seu nome:");
 console.log(`Olá ${nome}, seja bem vindo. `);
 
-
-
-
+import letsGo from "readline-sync"
