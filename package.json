@@ -1,12 +1,12 @@
 {
   "dependencies": {
+    "express": "^5.1.0",
     "readline-sync": "^1.4.10"
   },
   "name": "marcileialves",
   "version": "1.0.0",
   "main": "aula_objeto.js",
-  "type":"module",
-  "devDependencies": {},
+  "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
